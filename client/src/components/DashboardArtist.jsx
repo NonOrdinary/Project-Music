@@ -80,7 +80,7 @@ export const ArtistCard = ({ data, index }) => {
             Are you sure do you want to delete this?
           </p>
           <div className="flex items-center w-full justify-center gap-3">
-            <div className="bg-red-300 px-3 rounded-md">
+            <div className="bg-red-300 px-3 rounded-md" onClick={() => setIsDelete(true)}>
               <p className="text-headingColor text-sm">Yes</p>
             </div>
             <div
